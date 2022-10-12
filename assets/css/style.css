@@ -11,3 +11,13 @@ body {
     font-family: lato, sans-serif;
     font-weight: 300;
 }
+
+/* style header */
+header {
+    background: green;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
