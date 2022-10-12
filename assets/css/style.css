@@ -21,3 +21,12 @@ header {
     padding: 20px;
     color: white;
 }
+
+footer {
+    background: green;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
