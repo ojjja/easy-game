@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
+/* clear margin*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* implement font */
 body {
-    background: red;
+    font-family: lato, sans-serif;
+    font-weight: 300;
 }
