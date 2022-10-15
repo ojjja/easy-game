@@ -35,14 +35,26 @@ header {
     padding: 10px;
 }
 
+/* style choice area */
 #choice {
     text-align: center;
 }
 
-/* style game area */
 .picture {
     width: 80px;
     height: 80px;
+}
+
+/* style game area */
+#gridGame {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+/* style strategy area */
+#strategy {
+    text-align: center;
 }
 
 /* style footer area */
