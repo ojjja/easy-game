@@ -35,6 +35,10 @@ header {
     padding: 10px;
 }
 
+#choice {
+    text-align: center;
+}
+
 /* style game area */
 .picture {
     width: 80px;
