@@ -22,6 +22,7 @@ header {
     color: white;
 }
 
+/* style intro area */
 #intro {
     display: flex;
     justify-content: center;
@@ -29,10 +30,18 @@ header {
     padding: 10px;
 }
 
+
 #nickname {
     padding: 10px;
 }
 
+/* style game area */
+.picture {
+    width: 80px;
+    height: 80px;
+}
+
+/* style footer area */
 footer {
     background: green;
     height: 50px;
