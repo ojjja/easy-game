@@ -15,7 +15,7 @@ body {
 /* style header */
 header {
     background: green;
-    height: 50px;
+    height: 90px;
     width: 100%;
     text-align: center;
     padding: 20px;
@@ -60,7 +60,7 @@ header {
 /* style footer area */
 footer {
     background: green;
-    height: 50px;
+    height: 90px;
     width: 100%;
     text-align: center;
     padding: 20px;

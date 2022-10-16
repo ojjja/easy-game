@@ -10,6 +10,12 @@
 <body>
     <Header>
     <h1>Rock-Paper-Scissors games</h1>
+    <h3>Rules</h3>
+        <div class="flexfooter">
+        <p >Rock-beats-Scissors</p>
+        <p >Paper-beats-Rock</p>
+        <p >Scissors-beats-Paper</p>
+        </div>
     </Header>
 
     <section id="intro">
@@ -30,55 +36,54 @@
 
 
     <section>
-
-    <div id="choice">
-    <h3>Make your choice</h3>
-    <p>Number off games left to play: <span>0</span></p> 
-    <button aria-label="Rock" data choice="0" type="button" ><img src="assets/images/rock.png" alt="Rock" class="picture"></button>
-    <button aria-label="Paper" data choice="1" type="button" ><img src="assets/images/paper.png" alt="Paper" class="picture"></button>
-    <button aria-label="Paper" data choice="2" type="button" ><img src="assets/images/scissors.png" alt="Scissors" class="picture"></button>
-    </div>
     
     <div id="gridGame">
     <div > 
-        <h3>nickname choice</h3>
+        <h3>Nickname choice</h3>
         <p>Score challanger: <span>0</span></p>
+        <img src="assets/images/rock-paper-scissors.png" alt="Rock-Paper-Scissors">
     </div>
 
     <div>
+        <div id="choice">
+            <h3>Make your choice</h3>
+            <p>Number off games left to play: <span>0</span></p> 
+            <button aria-label="Rock" data choice="0" type="button" ><img src="assets/images/rock.png" alt="Rock" class="picture"></button>
+            <button aria-label="Paper" data choice="1" type="button" ><img src="assets/images/paper.png" alt="Paper" class="picture"></button>
+            <button aria-label="Paper" data choice="2" type="button" ><img src="assets/images/scissors.png" alt="Scissors" class="picture"></button>
+            </div>
         <h3>Results</h3>
         <p>x beats Z</p>
     </div>
+
+   
     
     <div>
-        <h3>computer choice</h3>
+        <h3>Computer choice</h3>
         <p>Score computer: <span>0</span></p>
+        <img src="assets/images/rock-paper-scissors.png" alt="Rock-Paper-Scissors">
     </div>  
     </div>
     </section>
 
-
-    <section id="strategy">
-    <div>
-        <h3>Game Over</h3>
-        <h3>Your strategi, repeting, shifting</h3>
-        <p>when you lost</p>
-        <p>when you win</p>
-    </div>
-
-    <div>
-        <h3>New game</h3>
-    </div>
-
-    </section>
+    
+    
 
     <Footer>
-        <h3>Rules</h3>
-        <div class="flexfooter">
-        <p >Rock-beats-Scissors</p>
-        <p >Paper-beats-Rock</p>
-        <p >Scissors-beats-Paper</p>
-        </div>
+        <section id="strategy">
+            <div>
+                <h3>Game Over</h3>
+                <h3>Your strategi, repeting, shifting</h3>
+                <p>when you lost</p>
+                <p>when you win</p>
+            </div>
+        
+            <div>
+                <h3>New game</h3>
+            </div>
+        
+            </section>
+        
     </Footer>
     <script src="assets/js/script.js"></script>
 </body>
