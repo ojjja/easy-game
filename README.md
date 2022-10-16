@@ -2,12 +2,11 @@
 
 - Rock-Paper-Scissors is an easy and funny game for all ages
 - The website is mainly for all people who want some easy entertainment
-
--The Website consists of one pages
--The web page consist of a header with rules
--An Intro to ask your name and number of games you want to play
--The game are for your number of plays 
--the web page consist of a footer with your playing strategy
+- The Website consists of one pages
+- The web page consist of a header with rules
+- An Intro to ask your name and number of games you want to play
+- The game are for your number of plays 
+- the web page consist of a footer with your playing strategy
 
 ## Features 
 - Here you will find the user features and the related screenshot of the website.
@@ -62,7 +61,6 @@ In this section, reference where I got the content, media and extra help from.
 - Grid was taken from www.w3schools.com/css
 - Read me file taken from easy tennis
 - flex was taken from www.w3schools.com/css
-- 
 - Listner was taken from
 - For loop was taken from
 
