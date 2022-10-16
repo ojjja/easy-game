@@ -22,6 +22,12 @@ header {
     color: white;
 }
 
+.flexheader {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
 /* style intro area */
 #intro {
     display: flex;
@@ -67,9 +73,5 @@ footer {
     color: white;
 }
 
-.flexfooter {
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-}
+
 
