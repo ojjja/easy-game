@@ -6,7 +6,7 @@ function newGame () {
 function userChoice() {
     for (let button of buttons) {
         button.addEventListener("click", function() {
-            if (this.getAttribute("data-type") === "rock") {
+            if (this.getAttribute("data choice") === "0") {
                 checkAnswer();
             } else {
                 let gameType = this.getAttribute("data-type");
