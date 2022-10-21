@@ -1,10 +1,9 @@
 
 
-let pictureButton = document.getElementsByClassName ('picture')
+document.getElementsByTagName ('button')
 
-pictureButton[0]
 
-console.log (pictureButton[2])
+
 
 
 
