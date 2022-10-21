@@ -46,6 +46,10 @@ header {
     text-align: center;
 }
 
+#result {
+    text-align: center;
+}
+
 .picture {
     width: 80px;
     height: 80px;
