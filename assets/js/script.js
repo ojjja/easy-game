@@ -1,6 +1,10 @@
 
 
-//let pictureButton = document.getElementsByClassName ('picture')
+let pictureButton = document.getElementsByClassName ('picture')
+
+pictureButton[0]
+
+console.log (pictureButton[2])
 
 
 
