@@ -1,6 +1,7 @@
 
 
-document.getElementsByTagName ('button')
+let buttons = document.getElementsByTagName ('button')
+console.log(buttons)
 
 
 
