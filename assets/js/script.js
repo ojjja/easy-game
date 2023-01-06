@@ -1,13 +1,12 @@
 
-
-function myFunction() {
+    function addFunction() {
       let x = document.getElementById("nname").value;
       document.getElementById("demo").innerHTML = x;
     }
 
-
-
-
+    function removeFunction() {
+      document.getElementById("demo").innerHTML = "";
+    }
 
 
 // function computerCoice() {
