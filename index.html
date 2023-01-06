@@ -26,13 +26,12 @@
     <section id="intro">
     <div id="nickname">
         <h3>Enter your nickname</h3>
-        <p>choose your winning nickname</p>
-        <form id="addName" action="">
-        <input type="text" placeholder="Your nickname...">
-        <button>Add</button>
-        </form>
+        <label for="nname">choose your winning nickname <br></label>
+        <input type="text" id="nname" name="nname" placeholder="Your nickname...">
+        <button onclick="myFunction()">Add</button>
+       
     </div>
-
+         
  <!-- add input filed with number of games to play -->
 
     <div>
@@ -62,7 +61,7 @@
     <section>
     <div id="gridGame">
     <div> 
-        <h3>Nickname choice</h3>
+        <h3>Challanger:<p id="demo"></p></p></h3>
         <p>Score challanger: <span>0</span></p>
         <img src="assets/images/rock-paper-scissors.png" alt="Rock-Paper-Scissors">
     </div>

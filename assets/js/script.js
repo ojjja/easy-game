@@ -1,9 +1,9 @@
 
 
-let buttons = document.getElementsByTagName ('button')
-console.log(buttons)
-
-
+function myFunction() {
+      let x = document.getElementById("nname").value;
+      document.getElementById("demo").innerHTML = x;
+    }
 
 
 
