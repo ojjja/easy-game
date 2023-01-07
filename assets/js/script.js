@@ -8,6 +8,9 @@
       document.getElementById("demo").innerHTML = "";
     }
 
+    function removeFunction() {
+      document.getElementById("myForm").reset();
+    }
 
 // function computerCoice() {
       // Creates one random numbers between 0 and 2
