@@ -32,7 +32,7 @@
       document.getElementById("gameNumber").innerHTML = y;
 
       let z = document.getElementById("opponent").value;
-      document.getElementById("gameNumber").innerHTML = z;
+      document.getElementById("oppName").innerHTML = z;
 
     }
 
