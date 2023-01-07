@@ -1,28 +1,17 @@
     
-    // Add remove and reset nickname //
-/*
-    function addFunction() {
-      let x = document.getElementById("nname").value;
-      document.getElementById("demo").innerHTML = x;
-    
-    }
-*/
-/*
-    function addFunction() {
-      let y = document.getElementById("ngame").value;
-      document.getElementById("gameNumber").innerHTML = y;
-    }
- */   
+  
 /*
     function removeFunction() {
       document.getElementById("demo").innerHTML = "";
     }
 */
+    // Reset input
+
     function removeFunction() {
       document.getElementById("myForm").reset();
     }
 
-     // Add remove and reset nickname //
+     // Add and remove input
 
      function addFunction() {
       let x = document.getElementById("nname").value;
@@ -37,6 +26,13 @@
       let a = document.getElementById("level").value;
       document.getElementById("levelNumber").innerHTML = a;
     }
+
+    // Add and remove inputfield
+    
+    function oppFunction() {
+      let z = document.getElementById("oppName").value;
+      console.log(z)
+} 
 
 // function computerCoice() {
       // Creates one random numbers between 0 and 2
