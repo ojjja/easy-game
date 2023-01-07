@@ -1,15 +1,23 @@
     
     // Add remove and reset nickname //
-
+/*
     function addFunction() {
       let x = document.getElementById("nname").value;
       document.getElementById("demo").innerHTML = x;
+    
     }
-
+*/
+/*
+    function addFunction() {
+      let y = document.getElementById("ngame").value;
+      document.getElementById("gameNumber").innerHTML = y;
+    }
+ */   
+/*
     function removeFunction() {
       document.getElementById("demo").innerHTML = "";
     }
-
+*/
     function removeFunction() {
       document.getElementById("myForm").reset();
     }
@@ -19,6 +27,13 @@
      function addFunction() {
       let x = document.getElementById("nname").value;
       document.getElementById("demo").innerHTML = x;
+
+      let y = document.getElementById("ngame").value;
+      document.getElementById("gameNumber").innerHTML = y;
+
+      let z = document.getElementById("opponent").value;
+      document.getElementById("gameNumber").innerHTML = z;
+
     }
 
 // function computerCoice() {

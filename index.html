@@ -32,6 +32,7 @@
             <input type="number" id="ngame" name="ngame" min="1" max="9" placeholder="Games between 1-9..."><br>
             <label for="opponent">Choose your opponent</label>
             <select id="opponent" name="opponent">
+                <option value="Friend">Friend</option>
                 <option value="Computer">Computer</option>
                 <option value="Friend">Friend</option>
             </select><br>
@@ -41,7 +42,7 @@
             <input type="text" id="fname" name="fname" placeholder="Friend gamename..."><br>
             <button onclick="removeFunction()">Reset</button>
             </form>
-            <button onclick="addFunction()">Add Nickname</button>
+            <button onclick="addFunction()">Submit</button>
         </div>
 
  <!-- add input filed with challanger nickname 
@@ -113,7 +114,7 @@
     <section>
     <div id="gridGame">
     <div> 
-        <h3>Challanger:<p id="demo"></p></p></h3>
+        <h3>Challanger:<p id="demo"></p></h3>
         <p>Score challanger: <span>0</span></p>
         <img src="assets/images/rock-paper-scissors.png" alt="Rock-Paper-Scissors">
     </div>
@@ -122,8 +123,8 @@
 
     <div>
         <div id="choice">
-            <h3>Make your choice</h3>
-            <p>Number off games left to play: <span> id=initialGameNumber </span></p> 
+            <h3>Make your choice:<p id="gameNumber"></p></h3>
+            <p>Number off games left to play: <span></span></p> 
             <button onclick="alert('You choose Rock')" aria-label="Rock" data-choice="0" type="button" ><img src="assets/images/rock.png" alt="Rock" class="picture"></button>
             <button onclick="alert('You choose Paper')" aria-label="Paper" data-choice="1" type="button" ><img src="assets/images/paper.png" alt="Paper" class="picture"></button>
             <button onclick="alert('You choose Scissors')" aria-label="Paper" data-choice="2" type="button" ><img src="assets/images/scissors.png" alt="Scissors" class="picture"></button>
