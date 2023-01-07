@@ -20,10 +20,32 @@
         </div>
     </Header>
 
-
-    <!-- add input filed with challanger nickname -->
-
     <section id="intro">
+
+ <!-- add game input and add remove reset input -->
+
+        <div>
+            <form id="myForm">
+            <label for="nname">Your gamename</label>
+            <input type="text" id="nname" name="nname" placeholder="Your nickname..."><br>
+            <label for="ngame">Number off games</label>
+            <input type="number" id="ngame" name="ngame" min="1" max="9" placeholder="Games between 1-9..."><br>
+            <label for="opponent">Choose your opponent</label>
+            <select id="opponent" name="opponent">
+                <option value="Computer">Computer</option>
+                <option value="Friend">Friend</option>
+            </select><br>
+            <label for="level">Choose gamelevel</label>
+            <input type="number" id="level" name="level" min="1" max="3" placeholder="Number between 1-3..."><br>
+            <label for="fname">Friend name</label>
+            <input type="text" id="fname" name="fname" placeholder="Friend gamename..."><br>
+            <button onclick="removeFunction()">Reset</button>
+            </form>
+            <button onclick="addFunction()">Add Nickname</button>
+        </div>
+
+ <!-- add input filed with challanger nickname 
+
     <div id="nickname">
         <h3>Enter your nickname</h3>
         <form id="myForm">
@@ -33,10 +55,10 @@
         </form>
         <button onclick="addFunction()">Add Nickname</button>
     </div>
+-->
 
-  
          
- <!-- add input filed with number of games to play -->
+ <!-- add input filed with number of games to play 
 
     <div>
         <H3>First to</H3>
@@ -46,8 +68,8 @@
         <button onclick="addNumbers()">Choose total number</button>
         </form>
     </div>
-
-       <!-- add input filed with opponent to play with -->
+-->
+       <!-- add input filed with opponent to play with 
 
        <div>
         <h3>Choose your opponent</h3>
@@ -62,8 +84,8 @@
         </form>
         <button onclick="addFunction()">Add opponent</button>
     </div>
-
-    <!-- add input filed with level of games level to play -->
+-->
+    <!-- add input filed with level of games level to play 
 
     <div>
         <H3>Game Level</H3>
@@ -83,7 +105,7 @@
             </form>
             <button onclick="addFunction()">Add Nickname</button>
         </div>
-
+-->
     </section>
 
     <!-- add challanger score -->

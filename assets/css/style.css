@@ -28,7 +28,7 @@ header {
     justify-content: space-evenly;
 }
 
-/* style intro area */
+/* style intro area 
 #intro {
     display: flex;
     justify-content: center;
@@ -40,6 +40,7 @@ header {
 #nickname {
     padding: 10px;
 }
+*/
 
 /* style choice area */
 #choice {
