@@ -34,6 +34,8 @@
       let z = document.getElementById("opponent").value;
       document.getElementById("oppName").innerHTML = z;
 
+      let a = document.getElementById("level").value;
+      document.getElementById("levelNumber").innerHTML = a;
     }
 
 // function computerCoice() {
