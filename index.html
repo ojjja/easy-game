@@ -42,8 +42,8 @@
         <H3>First to</H3>
         <p>choose number of games to play between 1-9</p>
         <form id="addNumber" action="">
-        <input type="number" placeholder="Number between 1-9...">
-        <button>Choose total number</button>
+        <input type="number" min="1" max="9" placeholder="Games between 1-9...">
+        <button onclick="addNumbers()">Choose total number</button>
         </form>
     </div>
 
@@ -74,6 +74,16 @@
         </form>
     </div>
 
+        <div id="friendname">
+            <h3>Enter your nickname</h3>
+            <form id="myForm">
+            <label for="fname">Enter friend name <br></label>
+            <input type="text" id="fname" name="fname" placeholder="Friend nickname...">
+            <button onclick="removeFunction()">Reset</button>
+            </form>
+            <button onclick="addFunction()">Add Nickname</button>
+        </div>
+
     </section>
 
     <!-- add challanger score -->
@@ -91,7 +101,7 @@
     <div>
         <div id="choice">
             <h3>Make your choice</h3>
-            <p>Number off games left to play: <span>0</span></p> 
+            <p>Number off games left to play: <span> id=initialGameNumber </span></p> 
             <button onclick="alert('You choose Rock')" aria-label="Rock" data-choice="0" type="button" ><img src="assets/images/rock.png" alt="Rock" class="picture"></button>
             <button onclick="alert('You choose Paper')" aria-label="Paper" data-choice="1" type="button" ><img src="assets/images/paper.png" alt="Paper" class="picture"></button>
             <button onclick="alert('You choose Scissors')" aria-label="Paper" data-choice="2" type="button" ><img src="assets/images/scissors.png" alt="Scissors" class="picture"></button>

@@ -1,3 +1,5 @@
+    
+    // Add remove and reset nickname //
 
     function addFunction() {
       let x = document.getElementById("nname").value;
@@ -10,6 +12,13 @@
 
     function removeFunction() {
       document.getElementById("myForm").reset();
+    }
+
+     // Add remove and reset nickname //
+
+     function addFunction() {
+      let x = document.getElementById("nname").value;
+      document.getElementById("demo").innerHTML = x;
     }
 
 // function computerCoice() {
