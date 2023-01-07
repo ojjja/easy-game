@@ -6,7 +6,7 @@
     }
 */
     // Reset input
-
+    
     function removeFunction() {
       document.getElementById("myForm").reset();
     }
@@ -26,16 +26,19 @@
       let a = document.getElementById("level").value;
       document.getElementById("levelNumber").innerHTML = a;
     }
-
+/*
     // Add and remove inputfield
     
     function oppFunction() {
-      let z = document.getElementById("oppName").value;
+      let z = document.getElementById("opponent").value;
       console.log(z)
-} 
-
-// function computerCoice() {
-      // Creates one random numbers between 0 and 2
- //     let num1 = Math.floor(Math.random() * 3);
- //     console.log(num1)
-// }
+    }
+*/
+/*
+    // Creates one random numbers between 0 and 2
+     function computerCoice() {
+      
+     let num1 = Math.floor(Math.random() * 3);
+    console.log(num1)
+ }
+*/
