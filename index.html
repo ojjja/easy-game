@@ -34,7 +34,7 @@
         <button onclick="addFunction()">Add Nickname</button>
     </div>
 
-    
+  
          
  <!-- add input filed with number of games to play -->
 
@@ -45,6 +45,22 @@
         <input type="number" placeholder="Number between 1-9...">
         <button>Choose total number</button>
         </form>
+    </div>
+
+       <!-- add input filed with opponent to play with -->
+
+       <div>
+        <h3>Choose your opponent</h3>
+        <form id="myForm">
+        <label for="opponent">Choose your opponent <br></label>
+        <select id="opponent" name="opponent">
+            <option value="Computer">Computer</option>
+            <option value="Friend">Friend</option>
+          </select>
+        
+        <button onclick="removeFunction()">Reset</button>
+        </form>
+        <button onclick="addFunction()">Add opponent</button>
     </div>
 
     <!-- add input filed with level of games level to play -->
