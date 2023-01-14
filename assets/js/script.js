@@ -28,15 +28,16 @@
     }
 
     // Add and remove inputfield
-    
-    function oppFunction() {
-      let z = document.getElementById("opponent").value
 
-      if ( z = computer) {
-        document.getElementById("level"). = false
-      }
-    }
 
+  
+	
+    let z = document.getElementById("opponent").value;
+    console.log(z)
+  
+
+
+  
 /*
     // Creates one random numbers between 0 and 2
      function computerCoice() {
