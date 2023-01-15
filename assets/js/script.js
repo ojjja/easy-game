@@ -16,24 +16,28 @@
      function addFunction() {
       let x = document.getElementById("nname").value;
       document.getElementById("demo").innerHTML = x;
+      console.log(x)
 
       let y = document.getElementById("ngame").value;
       document.getElementById("gameNumber").innerHTML = y;
+      console.log(y)
 
       let z = document.getElementById("opponent").value;
       document.getElementById("oppName").innerHTML = z;
+      console.log(z)
 
       let a = document.getElementById("level").value;
       document.getElementById("levelNumber").innerHTML = a;
+      console.log(a)
     }
 
     // Add and remove inputfield
 
 
-  
-	
     let z = document.getElementById("opponent").value;
     console.log(z)
+	
+    
   
 
 
