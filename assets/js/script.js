@@ -33,10 +33,12 @@
 
     // Add and remove inputfield
 
-
-    let z = document.getElementById("opponent").value;
-    console.log(z)
-	
+    function oppFunction() {
+      let z = document.getElementById("oppName").innerHTML
+      if (z = "computer") {
+        document.getElementById("level").style.visibility= "visable";
+      }
+  }
     
   
 
